@@ -107,7 +107,7 @@ Namespace ListBoxOwnerDrawSnippet
          End If
 
          ' Select the appropriate brush depending on if the item is selected.
-         ' Since State can be a combinateion (bit-flag) of enum values, you can't use
+         ' Since State can be a combination (bit-flag) of enum values, you can't use
          ' "==" to compare them.
          If (e.State And DrawItemState.Selected) = DrawItemState.Selected Then
             brush = SystemBrushes.HighlightText
